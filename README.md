@@ -10,8 +10,7 @@ I have connected my pool pump to a WLAN socket which I can control via Tasmota.
 
 It's a quick and dirty solution until I get proper sensors.
 
-
-'''
+```
 python3 sunnyboy-poolpump.py -h
 usage: sunnyboy-poolpump.py [-h] [--sunnyboyip SUNNYBOYIP]
                             [--sunnyboypassword SUNNYBOYPASSWORD]
@@ -32,4 +31,4 @@ optional arguments:
   --powerlow POWERLOW   the level where the pump switch off
   --powerhigh POWERHIGH
                         the level where the pump switch on
-'''
+```
